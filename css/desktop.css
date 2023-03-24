@@ -3,6 +3,33 @@
         width: 1158px;
 
     }
+/* сексія переваг */
+
+
+.container.container-advantages {
+    width: 1158px;
+    
+}
+.feature-list .item:nth-child(n+2) {
+    margin-left: 24px;
+}
+.feature-list .item:nth-child(n) {
+    margin-bottom: 0;
+
+
+}
+.feature-list .item {
+    width: 264px;
+    
+}
+.feature-list .item::before {
+    display: block;
+}
+
+
+
+
+        /* < !-- Наша команда --> */
 .work-list {
     display: flex;
     flex-wrap: wrap;
@@ -28,5 +55,6 @@ margin-bottom: 0;
 .customers .item:last-child {
     margin-right: 0px;
 }
+
 
 }
