@@ -1,0 +1,32 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1158px;
+
+    }
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+ .work-list .item+.item {
+     margin-left: 24px;
+    
+ }
+
+
+ .work-list .item:nth-child(-n + 2){
+margin-bottom: 0;
+ }
+/* клієнти */
+
+.customers .item:nth-child(n) {
+    margin-right: 24px;
+   
+    margin-bottom: 0px;
+    
+}
+
+.customers .item:last-child {
+    margin-right: 0px;
+}
+
+}
