@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
     .container{
-        width: 612px;
+        width:612px;
 
     }
   .section {
@@ -8,8 +8,15 @@
       padding-bottom: 96px;
 
   }
+  /* герой */
+ .hero-title{
+    font-size: 56px;
+    line-height: 1.07;
+    width: 494px;
+    margin-bottom: 40px;
+ }
 /* сексія переваг */
-.item .title {
+.item .subtitle {
     text-align: left;
 }
 .container.container-advantages{
@@ -69,4 +76,87 @@ margin-bottom: 72px;
 .customers .item:nth-child(n + 3) {
     margin-bottom: 0px;
 }
+
+/* портфоліо */
+.items-title{
+padding: 12px 24px;
+}
+ .section-button{
+    min-width: 612px;
+   margin-left: auto;
+   margin-right: auto;
+    margin-bottom: 64px;
+ }
+.section-portfolio .container{
+    width: 768px;
+}
+ .section-portfolio {
+     padding-top: 64px;
+    justify-content: center;
+
+ }
+.section-button .item:nth-child(n) {
+    margin-bottom: 0;
+    margin-right: 24px;
+    
+}
+.section-button .item:nth-child(n + 3) {
+    margin-bottom: 0;
+
+}
+.section-button .item:last-child {
+    margin-right: 0px;
+}
+
+.thumb img {
+    width: 356px;
+    height: 300px;
+}
+
+.project .item {
+    height: 420px;
+    width: 356px;
+
+    margin-right: 0px;
+    margin-bottom: 72px;
+
+}
+ .project .item:nth-child(2n){
+    margin-left: 24px;
+ }
+
+.project .item:last-child {
+    margin-bottom: 0px;
+
+}
+
+
+/* футер */
+
+.container-footer .footer-title {
+    
+    text-align: left;
+}
+.container-footer .container-social {
+    margin-left: 24px;
+    margin-right: 0;
+   
+}
+.container-footer .container-logo {
+    margin-left: 0;
+    margin-right: 0;}
+.form-footer {
+
+    width: 453px;
+}
+.form-client {
+    justify-content: left;
+
+}
+.footer-form-input {
+    margin-bottom: 0;
+    width: 246px;
+    
+}
+
 }
