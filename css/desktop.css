@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1158px;
+        max-width: 1158px;
 
     }
  /* герой */
@@ -9,7 +9,86 @@
  }
 
 
+ навігація */ .site-nav {
+     margin-left: 55px;
+     position: relative;
+ }
 
+ .site-nav,
+ .site-addres {
+     display: flex;
+     margin-bottom: 0px;
+     margin-top: 0px;
+
+
+ }
+
+ .site-nav .item+.item,
+ .site-addres .item+.item {
+     margin-left: 40px;
+
+ }
+
+ .site-nav .item {
+     position: relative;
+ }
+
+ .site-nav .link {
+     padding-top: 24px;
+     padding-bottom: 24px;
+     display: block;
+     color: var(--title-text-color);
+     font-weight: 500;
+     text-decoration: none;
+
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ }
+
+ .site-nav .link:hover,
+ .site-nav .link:focus {
+     color: var(--accent-color);
+
+ }
+
+ .item .current {
+     color: var(--ocean);
+ }
+
+ .current::after {
+     position: absolute;
+     content: "";
+     display: block;
+     background-color: var(--ocean);
+     height: 4px;
+     width: 100%;
+     left: 0;
+     bottom: 0;
+
+     border-radius: 2px;
+ }
+
+
+ /* адреси */
+ /* .main-address {
+    margin-left: auto;
+  }
+
+  .site-addres .link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-style: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .site-addres .link:hover,
+  .site-addres .link:focus {
+    color: var(--accent-color);
+  }
 /* сексія переваг */
 
 
@@ -61,7 +140,11 @@ margin-bottom: 0;
     margin-bottom: 0px;
     
 }
-
+.container .customers {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1128px;
+}
 .customers .item:last-child {
     margin-right: 0px;
 }

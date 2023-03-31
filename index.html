@@ -19,36 +19,81 @@
     <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
-    <!-- <header>
-      <div class="container">
-        <nav class="main-nav">
-          <a class="logo" href="./index.html"><span>WEB</span>STUDIO</a>
-          <ul class="site-nav list">
-            <li class="item">
-              <a href="./index.html" class="link current"> Studio</a>
-            </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link"> Portfolio</a>
-            </li>
-            <li class="item">
-              <a href="" class="link"> Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="main-address">
-          <ul class="site-addres list">
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="item">
-              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
+    <header>
+      <div class="container header">
+        <a class="logo" href="./index.html"><span>WEB</span>STUDIO</a>
+        <button type="button" class="menu-button js-open-menu">
+          <svg width="32" height="22">
+            <use href="./images/symbol.svg#icon-menu"></use>
+          </svg>
+        </button>
+
+        <div class="js-menu-container menu-container is-open">
+          <button type="button" class="close-button js-close-menu">
+            <svg class="modal-icon" width="8" height="8">
+              <use href="./images/symbol.svg#icon-icon-Vector"></use>
+            </svg>
+          </button>
+          <nav class="main-nav">
+            <ul class="site-nav list">
+              <li class="item">
+                <a href="./index.html" class="link"> Studio</a>
+              </li>
+              <li class="item">
+                <a href="./portfolio.html" class="link"> Portfolio</a>
+              </li>
+              <li class="item">
+                <a href="" class="link"> Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="main-address">
+            <ul class="site-addres list">
+              <li class="item">
+                <a href="mailto:info@devstudio.com" class="email link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="item">
+                <a href="tel:+110001111111" class="phone link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+            <ul class="networks-list">
+              <li class="item-network">
+                <a href="" class="network-link">
+                  <svg class="network-logo" width="16" height="16">
+                    <use href="./images/symbol.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item-network">
+                <a href="" class="network-link">
+                  <svg class="network-logo" width="16" height="16">
+                    <use href="./images/symbol.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item-network">
+                <a href="" class="network-link">
+                  <svg class="network-logo" width="16" height="16">
+                    <use href="./images/symbol.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item-network">
+                <a href="" class="network-link">
+                  <svg class="network-logo" width="16" height="16">
+                    <use href="./images/symbol.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
-    </header> -->
+    </header>
     <main>
       <!-- герой -->
       <section class="hero">
@@ -123,8 +168,10 @@
                   value="policy"
                 />
                 <span class="icon"></span>
-                I accept the terms and conditions of the
-                <a href=""><span class="link">Privacy Policy</span> </a>
+                <span>
+                  I accept the terms and conditions of the
+                  <a href=""><span class="link">Privacy Policy</span> </a></span
+                >
               </label>
               <button type="submit" class="button">Send</button>
             </form>
@@ -202,7 +249,12 @@
           <h2 class="section-title">Our Team</h2>
           <ul class="work-list list">
             <li class="item">
-              <img src="./images/img-3.jpg" alt="Mark Guerrero" width="264" />
+              <img
+                srcset="./images/img-3.jpg 1x, ./images/img-3-2x.jpg 2x"
+                src="./images/img-3.jpg"
+                alt="Mark Guerrero"
+                width="264"
+              />
 
               <h3 class="title">Mark Guerrero</h3>
               <p class="slogan">Product Designer</p>
@@ -238,7 +290,12 @@
               </ul>
             </li>
             <li class="item">
-              <img src="./images/img-2.jpg" alt="Tom Ford" width="264" />
+              <img
+                srcset="./images/img-2.jpg 1x, ./images/img-2-2x.jpg 2x"
+                src="./images/img-2.jpg"
+                alt="Tom Ford"
+                width="264"
+              />
               <h3 class="title">Tom Ford</h3>
               <p class="slogan">Frontend Developer</p>
               <ul class="networks-list">
@@ -273,7 +330,12 @@
               </ul>
             </li>
             <li class="item">
-              <img src="./images/img-1.jpg" alt="Camila Garcia" width="264" />
+              <img
+                srcset="./images/img-1.jpg 1x, ./images/img-1-2x.jpg 2x"
+                src="./images/img-1.jpg"
+                alt="Camila Garcia"
+                width="264"
+              />
               <h3 class="title">Camila Garcia</h3>
               <p class="slogan">Marketing</p>
               <ul class="networks-list">
@@ -308,7 +370,12 @@
               </ul>
             </li>
             <li class="item">
-              <img src="./images/img.jpg" alt="Daniel Wilson" width="264" />
+              <img
+                srcset="./images/img.jpg 1x, ./images/img-2x.jpg 2x"
+                src="./images/img.jpg"
+                alt="Daniel Wilson"
+                width="264"
+              />
               <h3 class="title">Daniel Wilson</h3>
               <p class="slogan">UI Designer</p>
               <ul class="networks-list">
@@ -462,5 +529,6 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script defer src="js/menu.js"></script>
   </body>
 </html>
