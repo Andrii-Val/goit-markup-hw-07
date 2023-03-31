@@ -196,9 +196,15 @@ position: absolute;
         letter-spacing: 0.02em;
       
       color: var(--primary-text-color);
-     
-      
+   
   
+     }
+    .site-addres{
+      display: flex;
+      flex-wrap: wrap;
+    }
+     .email.item{
+      order: 1;
      }
    .phone.link{
     font-weight: 600;
@@ -206,7 +212,7 @@ position: absolute;
       line-height: 1.11;
     color: var(--accent-color);
       text-transform: capitalize;
-      order: 1;
+      
    }
   .main-address {
     margin-left: auto;
