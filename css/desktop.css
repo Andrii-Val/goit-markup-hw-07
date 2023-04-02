@@ -90,6 +90,15 @@
   .site-addres .link:focus {
       color: var(--accent-color);
   }
+
+  .hero {
+      height: 600px;
+      max-width: 1440px;
+      padding-top: 188px;
+      padding-bottom: 188px;
+
+
+  }
 /* сексія переваг */
 
 
@@ -104,6 +113,15 @@
     margin-bottom: 0;
 
 
+}
+.feature-list .title {
+    color: var(--title-text-color);
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .feature-list .item {
     width: 264px;

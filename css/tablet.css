@@ -95,7 +95,14 @@ display: none;
 
     border-radius: 2px;
 }
+.hero {
+    height: 436px;
+    max-width: 1200px;
+    padding-top: 112px;
+    padding-bottom: 108px;
 
+
+}
 
 /* адреси */
  
@@ -138,7 +145,13 @@ display: none;
     padding-right: 15px;
     }
 
-
+.feature-list .title {
+   
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+   
+}
    .feature-list {
        display: flex;
        flex-wrap: wrap;
@@ -159,7 +172,13 @@ margin-bottom: 72px;
 .work-list {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
 }
+ .work-list .item {
+     margin-left: 0;
+     margin-right: 0;}
 .work-list .item+.item {
     margin-top: 0;
    
@@ -173,15 +192,15 @@ margin-bottom: 72px;
     margin-bottom: 64px;
 }
 /* клієнти */
+.item .customer {
+    gap: 24px 72px;
+}
 .container .customers{
     margin-left: auto;
     margin-right: auto;
     width: 552px;
 }
- .customers .item:nth-child(n){
-    margin-right: 24px;
-    margin-left: 0;
- }
+ 
 .customers .item:nth-child(3n) {
     margin-right: 0px;
 }
