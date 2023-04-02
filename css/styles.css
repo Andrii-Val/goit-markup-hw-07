@@ -135,6 +135,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
    
 .is-open {
   opacity: 1;
+  pointer-events: none;
 } 
 
   
@@ -177,6 +178,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 /* модальне вікно */
 
 .backdrop{
+  opacity: 1;
   position: fixed;
   left: 0;
   top: 0;
