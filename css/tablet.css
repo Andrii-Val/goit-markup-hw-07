@@ -192,15 +192,16 @@ margin-bottom: 72px;
     margin-bottom: 64px;
 }
 /* клієнти */
-.item .customer {
-    gap: 24px 72px;
-}
+
 .container .customers{
     margin-left: auto;
     margin-right: auto;
     width: 552px;
 }
- 
+ .customers.list {
+
+     gap: 72px 24px;
+ }
 .customers .item:nth-child(3n) {
     margin-right: 0px;
 }

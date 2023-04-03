@@ -101,7 +101,9 @@
   }
 /* сексія переваг */
 
-
+ .feature-list .text {
+     font-weight: 500;
+ }
 .container.container-advantages {
     width: 1158px;
     
