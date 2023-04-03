@@ -154,7 +154,10 @@ font-weight: 500;
 margin-bottom: 0;
  }
 /* клієнти */
+ .customers.list {
 
+     gap: 0;
+ }
 .customers .item:nth-child(n) {
     margin-right: 24px;
    
