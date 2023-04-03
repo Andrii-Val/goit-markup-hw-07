@@ -156,22 +156,15 @@ margin-bottom: 0;
 /* клієнти */
  .customers.list {
 
-     gap: 0;
+     gap: 24px;
  }
-.customers .item:nth-child(n) {
-    margin-right: 24px;
-   
-    margin-bottom: 0px;
-    
-}
+
 .container .customers {
     margin-left: auto;
     margin-right: auto;
     width: 1128px;
 }
-.customers .item:last-child {
-    margin-right: 0px;
-}
+
 
 /* портфоліо */
  .section-button {
